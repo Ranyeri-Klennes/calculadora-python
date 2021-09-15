@@ -73,7 +73,7 @@ b8 = Button(frame_teclado, command= lambda: entrar_valores('4'), text='4', width
 b8.place(x=0, y=104)
 b9 = Button(frame_teclado, command= lambda: entrar_valores('6'), text='6', width=5, height=2, font=('Ivy 13 bold'), relief=(RAISED), overrelief=RIDGE)
 b9.place(x=60, y=104)
-b10 = Button(frame_teclado, command= lambda: entrar_valores('6'), text='6', width=5, height=2, font=('Ivy 13 bold'), relief=(RAISED), overrelief=RIDGE)
+b10 = Button(frame_teclado, command= lambda: entrar_valores('5'), text='5', width=5, height=2, font=('Ivy 13 bold'), relief=(RAISED), overrelief=RIDGE)
 b10.place(x=119, y=104)
 b11 = Button(frame_teclado, command= lambda: entrar_valores('-'), text='-', width=5, height=2, bg=cor_teclado, fg=cor_numeros, font=('Ivy 13 bold'), relief=(RAISED), overrelief=RIDGE)
 b11.place(x=177, y=104)
